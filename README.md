@@ -20,7 +20,7 @@ This notebook is dedicated to the initial understanding and preparation of the r
 
 ---
 
-### 2. `02CONTROL_CHARTS.ipynb` (Multivariate Control Charts)
+### 2. `01CONTROL_CHARTS.ipynb` (Multivariate Control Charts)
 
 This notebook implements the foundational MSPM technique: **Principal Component Analysis (PCA)**, and uses it to construct control charts for fault detection.
 
@@ -33,7 +33,7 @@ This notebook implements the foundational MSPM technique: **Principal Component 
 
 ---
 
-### 3. `03MODELING.ipynb` (Dynamic and Advanced Modeling)
+### 3. `02MODELING.ipynb` (Dynamic and Advanced Modeling)
 
 This notebook advances the process monitoring framework by incorporating dynamic and more sophisticated techniques to improve fault detection, diagnosis, and prognosis.
 
@@ -44,4 +44,5 @@ This notebook advances the process monitoring framework by incorporating dynamic
         * **Dynamic PCA (DPCA)** or **Enhanced PCA (ENH-PCA)**.
         * **Canonical Variate Analysis (CVA)** or **Canonical Variate Dynamic Analysis (CVDA)**.
     * **Prognosis and Diagnosis:** Utilizing contribution plots and advanced statistics (like the **D-index** in CVDA) to not only detect a fault but also to **diagnose** which variables are the primary cause and to perform **prognosis** by tracking the fault's state trajectory.
+
     * **Performance Comparison:** Summarizing the detection rates and time-to-detection across all static and dynamic methods for various fault scenarios (e.g., comparing PCA vs. DPCA vs. CVA performance).
